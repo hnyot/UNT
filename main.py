@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     combined_model.save_weights(model_path)
 
-    # Create Loss Accuracy History Figure
+    # Create Loss Accuracy History
     training_loss = history.history['loss']
     validation_loss = history.history['val_loss']
     training_accuracy = history.history['binary_accuracy']
